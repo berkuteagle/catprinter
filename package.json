@@ -1,0 +1,36 @@
+{
+  "name": "catprinter",
+  "version": "0.0.1",
+  "description": "Catprinter javascript library",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript --forceExit",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkuteagle/catprinter.git"
+  },
+  "keywords": [
+    "catprinter"
+  ],
+  "author": "Anton Snigirev <berkuteagle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berkuteagle/catprinter/issues"
+  },
+  "homepage": "https://github.com/berkuteagle/catprinter#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "rollup": "^4.13.0",
+    "ts-jest": "^29.1.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2"
+  }
+}
