@@ -1,5 +1,5 @@
 {
-  "name": "catprinter",
+  "name": "@berkuteagle/catprinter",
   "version": "0.0.1",
   "description": "Catprinter javascript library",
   "main": "dist/index.js",
